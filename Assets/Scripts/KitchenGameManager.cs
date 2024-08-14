@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KitchenGameManager : MonoBehaviour {
+public class KitchenGameManager : MonoBehaviour 
+{
 
     public static KitchenGameManager Instance { get; private set; }
 
@@ -19,9 +20,9 @@ public class KitchenGameManager : MonoBehaviour {
     }
 
     private State state;
-    private float countdownToStartTimer = 3f;
+    private float countdownToStartTimer = 1f;
     private float gamePlayingTimer;
-    [SerializeField] private float gamePlayingTimerMax = 180f;
+    [SerializeField] private float gamePlayingTimerMax = 300f;
     private bool isGamePaused = false;
 
     private void Awake() {
@@ -32,6 +33,10 @@ public class KitchenGameManager : MonoBehaviour {
     private void Start() {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
+
+        //DEBUG TRIGGER START AUTOMATICALLY
+        state = State.CountdownToStart;
+        OnStateChanged?.Invoke(this, EventArgs.Empty);
     }
 
     private void GameInput_OnInteractAction(object sender, EventArgs e) {
