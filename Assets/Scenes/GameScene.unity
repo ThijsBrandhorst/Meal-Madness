@@ -7010,6 +7010,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730769970}
   m_CullTransparentMesh: 1
+--- !u!1 &744249482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744249484}
+  - component: {fileID: 744249483}
+  m_Layer: 0
+  m_Name: RuntimeNetStatsMonitor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &744249483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744249482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17737e0516da2445b9b0077ae2bd9b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Visible: 1
+  m_MaxRefreshRate: 30
+  <CustomStyleSheet>k__BackingField: {fileID: 0}
+  <PanelSettingsOverride>k__BackingField: {fileID: 0}
+  <Position>k__BackingField:
+    <OverridePosition>k__BackingField: 1
+    m_PositionLeftToRight: 1
+    m_PositionTopToBottom: 0
+  <Configuration>k__BackingField: {fileID: 11400000, guid: 8f1b4e3792d8446399527749cfb591a2,
+    type: 2}
+--- !u!4 &744249484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744249482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &756737191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5887955762002419216, guid: d5b2786a5e50db44ca804df779feab04,
@@ -17666,3 +17720,4 @@ SceneRoots:
   - {fileID: 503104341}
   - {fileID: 1788844145}
   - {fileID: 2058933379}
+  - {fileID: 744249484}
