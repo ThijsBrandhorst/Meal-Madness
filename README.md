@@ -7,12 +7,12 @@ Welcome to **Meal Madness**, a fast-paced game where your burger cooking skills 
 - **Exciting Gameplay**: Prepare burgers and serve them to your customers under time pressure.
 - **Controller Support**: Full controller support for any controller with custom bindings for a personalized experience.
 - **High Replayability**: Compete against your own records and try to improve your speed and efficiency.
+- **Multiplayer Mode**: Join with up to 3 friends or dive into a random lobby for an even more exciting experience.
 
 ## Installation
-
-1. Clone the repository to your computer.
-2. Open the project in Unity.
-3. Build and run the game to start playing!
+1. Acess this website and download the MealMadness.zip, https://thijsbrandhorst.github.io/XpowerDevelopment/
+2. Extract the game files from the zip and launch the .exe file.
+3. Wait for the game to start and enjoy playing Meal Madness!
 
 ## How to Play
 
@@ -27,4 +27,4 @@ Special thanks to CodeMonkey for providing inspiration and guidance for this pro
 
 ---
 
-Enjoy playing **Meal Madness**!
+Enjoy your time in the kitchen, and good luck beating the clock in **Meal Madness**!
