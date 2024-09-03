@@ -10,9 +10,9 @@ Welcome to **Meal Madness**, a fast-paced game where your burger cooking skills 
 - **Multiplayer Mode**: Join with up to 3 friends or dive into a random lobby for an even more exciting experience.
 
 ## Installation
-1. Acess this website and download the MealMadness.zip, https://thijsbrandhorst.github.io/XpowerDevelopment/
-2. Extract the game files from the zip and launch the .exe file.
-3. Wait for the game to start and enjoy playing Meal Madness!
+1. Clone the project.
+2. Open the project in Unity and install the nessecary packages.
+3. Click play and enjoy Meal Madness!
 
 ## How to Play
 
